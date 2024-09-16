@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Project 1</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/sprite.css">
+        <link rel="stylesheet" href="css/sprite2.css">
+    </head>
+    
+    <body>
+        <div class="container-fluid grey-box">
+            <div class="row">
+                <!-- top blue setting -->
+                <div class="col-md-8 grey-box"></div>
+                <div class="col-md-4 grey-box mini-icons">
+                    <a href="" id="mini">MINI of Raleigh</a>
+                    <img id="mini-icons" src="img/question.png" alt="question icons">
+                    <img id="mini-icons" src="img/settings.png" alt="settings icons">
+                </div>
+            </div>
+            
+            <div class="row" id="sprite-row">
+                <!-- main menu -->
+                <div class="col-md-2 blue-box"></div>
+                <div class="col-md-8 blue-box">
+                    <i class="sprite sprite-menu-bars-green"></i>
+                    <i class="sprite sprite-menu-dashboard-green"></i>
+                    <i class="sprite sprite-menu-messages-green"></i>
+                    <i class="sprite sprite-menu-papers-green"></i>
+                    <i class="sprite sprite-menu-people-green"></i>
+                    <i class="sprite sprite-menu-tag-green"></i>
+                </div>
+                <div class="col-md-2 blue-box"></div>
+            </div>
+        </div>
+
+        <!-- dashboard -->
+        <div class="container margin">
+            <div class="row dashboard">
+                <div class="col-md-8">
+                    <h1>Dashboard</h1>
+                </div>
+                <div class="col-md-4">
+                    <div class="search">
+                        <input class="form-control searchbar" type="search">
+                    </div>
+                    <div class="search">
+                        <img id="search-icon" src="img/search-icon.png">
+                    </div>
+                </div>
+            </div>
+
+            <!-- announcements box-->
+            <div class="row announcements-box">
+                <div class="col-md-2">
+                    <p id="announcements">ANNOUNCEMENTS</p>
+                </div>
+                <div class="col-md-9">
+                    <p>Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus sagittis lacus</p>
+                </div>
+                <div class="col-md-1 nav-butts">
+                    <i class="sprite2 sprite2-Button_-Navigation_-Small-1"></i>
+                    <i class="sprite2 sprite2-Button_-Navigation_-Small-2"></i>
+                </div>
+            </div>
+
+            <!-- main box -->
+             <!-- tasks -->
+            <div class="row main-box">
+                <div class="col-md-4 border-help">
+                    <div class="headers tasks">
+                        <h3>Tasks</h3>
+                        <img src="img/settings-button.png" alt="settings button">
+                    </div>
+                    <div class="list">
+                        <img src="img/green-circle.png" alt="green circle">
+                        <h6>Welcome Contacts</h6>
+                        <i class="sprite2 sprite2-blue-likes-36"></i>
+                        <p id="one">1</p>
+                    </div>
+                    <div class="list">
+                        <i class="sprite2 sprite2-green-2"></i>
+                        <h6>Provide Responses</h6>
+                        <i class="sprite2 sprite2-blue-likes-36"></i>
+                    </div>
+                    <div class="list">
+                        <i class="sprite2 sprite2-green-3"></i>
+                        <h6>Review Activity</h6>
+                        <i class="sprite2 sprite2-blue-likes-36"></i>
+                    </div>
+                    <div class="list">
+                        <i class="sprite2 sprite2-green-4"></i>
+                        <h6>Reach Out</h6>
+                        <i class="sprite2 sprite2-blue-likes-3"></i>
+                    </div>
+
+                    <!-- reccomendations -->
+                    <div class="headers tasks">
+                        <h3>Reccomendations</h3>
+                    </div>
+                    <div class="recs">
+                        <i class="sprite2 sprite2-green-form"></i>
+                        <div class="recs-text">
+                            <p id="article1">Article</p>
+                            <a class="list-text" href="">7 Steps to getting more Fans</a>
+                        </div>
+                    </div>
+                    <div class="recs">
+                        <i class="sprite2 sprite2-green-form"></i>
+                        <div class="recs-text">
+                            <p id="article2">Article</p>
+                            <a class="list-text" href="">Increase tractions with more interactions</a>
+                        </div>
+                    </div>
+                    <div class="recs">
+                        <i class="sprite2 sprite2-green-check"></i>
+                        <div class="recs-text">
+                            <p id="checklist">Checklist</p>
+                            <a class="list-text" href="">Creating a Promotion</a>
+                        </div>
+                    </div>
+                    <div class="recs">
+                        <i class="sprite2 sprite2-green-lightbulb"></i>
+                        <div class="recs-text">
+                            <p id="tip">Tip</p>
+                            <a class="list-text" href="">Share More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- analytics -->
+                <div class="col-md-8">
+                    <div class="headers">
+                        <h3>Analytics</h3>
+                    </div>
+                    <div class="dropdown">
+                        <p id="analytics">ACTIVITY</p>
+                        <img id="dropdown" src="img/drop-down.png">
+                    </div>
+                    <div class="analytics-graphs">
+                        <img id="graph" src="img/analytics-graph.png" alt="bar graph">
+                        <div class="analytics-piecharts">
+                            <p>CHANNELS</p>
+                            <img id="piechart1" src="img/piechart-1.png" alt="pie chart">
+                            <p>REFFERALS</p>
+                            <img id="piechart2" src="img/piechart-2.png" alt="pie chart">
+                        </div>
+                    </div>
+
+                    <!-- checkboxes -->
+                    <div class="row">
+                        <div class="col-md-3">
+                            <input type="checkbox" id="facebook" value="">
+                            <label id="facebook" for="facebook">Facebook</label>
+                        </div>
+                        <div class="col-md-3">
+                            <input type="checkbox" id="twitter" value="">
+                            <label id="twitter" for="twitter">Twitter</label>
+                        </div>
+                        <div class="col-md-3">
+                            <input type="checkbox" id="foursquare" value="">
+                            <label id="foursquare" for="foursquare">Foursquare</label>
+                        </div>
+                        <div class="col-md-3">
+                            <input type="checkbox" id="google" value="">
+                            <label id="google" for="google">Google+</label>
+                        </div>
+                    </div>
+
+                    <!-- profiles -->
+                    <div class="row">
+                        <div class="border">
+                            <div id="text1">
+                                <h4>75 CUSTOMERS</h4>
+                                <p id="prof-text">4 INFLUENCERS</p>
+                            </div>
+                            <div class="col-md-6 ribbons">
+                                <img id="profiles" src="img/green-profile.png" alt="green profile">
+                                <img id="ribbons" src="img/ribbon.png" alt="blue ribbon">
+                                <img id="lines" src="img/lines-green.png" alt="green line graph">
+                            </div>
+                            <div id="text2">
+                                <h4>17 CUSTOMERS</h4>
+                                <p id="prof-text">0 INFLUENCERS</p>
+                            </div>
+                            <div class="col-md-6 ribbons">
+                                <div id="right">
+                                    <img class="arrows" src="img/right.png" alt="arrow">
+                                </div>
+                                <div id="left">
+                                    <img class="arrows" src="img/left.png" alt="arrow">
+                                </div>
+                                <img id="profiles" src="img/orange-profile.png" alt="orange profile">
+                                <img id="ribbons" src="img/ribbon.png" alt="blue ribbon">
+                                <img id="lines" src="img/lines-orange.png" alt="orange line graph">
+                            </div>
+                        </div>
+
+                        <!-- message box -->
+                        <div class="message-box">
+                            <p class="prof-text">DID YOU KNOW?</p>
+                            <p class="prof-text">Maecenas sed diam eget risus varius blandit sit amet non magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porta sem malesuada magna mollis euismod.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ads boxes -->
+                <div class="row adsbox">
+                    <div class="col-md-4">
+                        <div class="adsimgs">
+                            <img class="ads" src="img/ad1.png">
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="adsimgs">
+                            <img class="ads" src="img/ad3.png"> 
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="adsimgs">
+                            <img class="ads" src="img/ad2.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- footer -->
+        <footer>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-1 footer">
+                        <a class="footer-text" href="">Tutorial</a>
+                    </div>
+                    <div class="col-md-1 footer">
+                        <a class="footer-text" href="">Support</a>
+                    </div>
+                    <div class="col-md-1 footer">
+                        <a class="footer-text" href="">Blog</a>
+                    </div>
+                    <div class="col-md-5 footer">
+                        <p><a href="">Ariel Winter</a> likes your <a href="">Win a Cooper Sweepstakes</a> Promotion</p>
+                    </div>
+                    <div class="col-md-2 footer" id="footer">
+                        <img id="logout" src="img/logout.png" alt="profile img">
+                        <a href="">Logout</a>
+                    </div>
+                    <div class="col-md-2 footer" id="icons-pos">
+                        <img id="icons" src="img/icons.png" src="icons">
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </body>
+</html>

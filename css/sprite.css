@@ -1,0 +1,83 @@
+.sprite {
+    background-image: url(../img/menu-spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-menu-bars-blue {
+    width: 45px;
+    height: 53px;
+    background-position: -5px -5px;
+}
+
+.sprite-menu-bars-green {
+    width: 47px;
+    height: 59px;
+    background-position: -60px -5px;
+    display: inline-block;
+}
+
+.sprite-menu-dashboard-blue {
+    width: 60px;
+    height: 60px;
+    background-position: -117px -5px;
+}
+
+.sprite-menu-dashboard-green {
+    width: 67px;
+    height: 67px;
+    background-position: -5px -75px;
+    display: inline-block;
+}
+
+.sprite-menu-messages-blue {
+    width: 60px;
+    height: 50px;
+    background-position: -82px -75px;
+}
+
+.sprite-menu-messages-green {
+    width: 63px;
+    height: 52px;
+    background-position: -152px -75px;
+    display: inline-block;
+}
+
+.sprite-menu-paper-blue {
+    width: 50px;
+    height: 54px;
+    background-position: -82px -137px;
+}
+
+.sprite-menu-papers-green {
+    width: 53px;
+    height: 54px;
+    background-position: -142px -137px;
+    display: inline-block;
+}
+
+.sprite-menu-people-blue {
+    width: 63px;
+    height: 44px;
+    background-position: -187px -5px;
+}
+
+.sprite-menu-people-green {
+    width: 65px;
+    height: 45px;
+    background-position: -225px -59px;
+    display: inline-block;
+}
+
+.sprite-menu-tag-blue {
+    width: 51px;
+    height: 51px;
+    background-position: -225px -114px;
+}
+
+.sprite-menu-tag-green {
+    width: 60px;
+    height: 56px;
+    background-position: -5px -175px;
+    display: inline-block;
+}

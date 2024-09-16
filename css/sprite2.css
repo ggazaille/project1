@@ -1,0 +1,71 @@
+.sprite2{
+    background-image: url(../img/sidebar-spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite2-Button_-Navigation_-Small-1 {
+    width: 22px;
+    height: 22px;
+    background-position: -5px -5px;
+}
+
+.sprite2-Button_-Navigation_-Small-2 {
+    width: 22px;
+    height: 22px;
+    background-position: -37px -5px;
+}
+
+.sprite2-blue-likes-3 {
+    width: 65px;
+    height: 34px;
+    background-position: -69px -5px;
+}
+
+.sprite2-blue-likes-36 {
+    width: 65px;
+    height: 33px;
+    background-position: -5px -49px;
+}
+
+.sprite2-blue-search {
+    width: 138px;
+    height: 126px;
+    background-position: -144px -5px;
+}
+
+.sprite2-green-2 {
+    width: 32px;
+    height: 31px;
+    background-position: -292px -5px;
+}
+
+.sprite2-green-3 {
+    width: 32px;
+    height: 29px;
+    background-position: -292px -46px;
+}
+
+.sprite2-green-4 {
+    width: 32px;
+    height: 28px;
+    background-position: -80px -85px;
+}
+
+.sprite2-green-check {
+    width: 23px;
+    height: 24px;
+    background-position: -292px -85px;
+}
+
+.sprite2-green-form {
+    width: 22px;
+    height: 25px;
+    background-position: -5px -119px;
+}
+
+.sprite2-green-lightbulb {
+    width: 16px;
+    height: 25px;
+    background-position: -37px -119px;
+}

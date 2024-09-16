@@ -1,0 +1,432 @@
+/* main css */
+.grey-box{
+    border: 1px solid black;
+    background-color: #208ee6;
+    min-height: 40px;
+    color: white;
+}
+
+#mini-icons{
+    max-width: 6%;
+    height:auto;
+}
+
+#mini{
+    color: white;
+}
+
+#mini:hover{
+    color: lightgrey;
+}
+
+.mini-icons{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.blue-box{
+    background-color: #134670;
+    color: white;
+    min-height: 80px;
+}
+
+#sprite-row{
+    text-align: center;
+}
+
+h5{
+    font-size: 10px;
+    margin: 0;
+}
+
+/* dashboard */
+
+.dashboard{
+    border-radius: 7px;
+    background-color: #33cc66;
+    color: white;
+    max-height: 75px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+h1{
+    margin: 15px;
+    font-size: 36px;
+}
+
+.search-box {
+    width: 300px;
+    height: 40px;
+    margin: 17.5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+form{
+    margin: 25px
+}
+
+.search{
+    position: relative;
+}
+
+.searchbar{
+    position: absolute;
+    top: 15px;
+}
+
+#search-icon{
+    position: absolute;
+    max-width: 8%;
+    height: auto;
+    top: 18px;
+    left: 380px;
+}
+
+/* announcements */
+
+.announcements-box{
+    border: 1px solid grey;
+    background-color: white;
+}
+
+.nav-butts{
+    display: flex;
+    flex: wrap;
+    align-items: center;
+}
+
+p{
+    font-size: 14px;
+    color: #777777;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#announcements{
+    color: #fe7f13;
+    text-align: center;
+}
+
+/* main box */
+
+.main-box{
+    border: 1px solid grey;
+    border-top: none;
+    background-color: white;
+}
+
+/* tasks */
+
+.border-help{
+    border-right: 1px solid grey;
+}
+
+.headers{
+    font-size: 32px;
+    color: #2498f4;
+    padding: 1.5rem;
+}
+
+.tasks{
+    display: flex;
+    justify-content: space-between;
+}
+
+.list{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid grey;
+    align-items: center;
+    padding: 15px;
+    position: relative;
+}
+
+.list:hover{
+    color: grey;
+}
+
+.list-text{
+    color: black;
+    text-align: left;
+}
+
+h6{
+    margin: 0;
+}
+
+#one{
+    position: absolute;
+    left: 40px;
+    font-size: 20px;
+    color: white;
+    z-index: 1;
+}
+
+/* reccomendations */
+
+.recs{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border-bottom: 1px solid grey;
+}
+
+.recs-text{
+    display: flex;
+    flex: wrap;
+    flex-direction: column;
+    padding: 15px;
+}
+
+#article1{
+    margin: 0px;
+    text-align: left;
+}
+
+#article2{
+    margin: 0px;
+    text-align: left;
+}
+
+#checklist{
+    margin: 0px;
+    text-align: left;
+}
+
+#tip{
+    margin: 0px;
+    text-align: left;
+}
+
+/* analytics */
+
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+}
+
+#dropdown{
+    max-width: 25%;
+    height: 25%;
+}
+
+#analytics{
+    text-align: left;
+}
+
+.analytics-graphs{
+    display: flex;
+    align-items: space-between;
+    position: relative;
+}
+
+#graph{
+    max-width: 65%;
+    height: 65%;
+}
+
+.analytics-piecharts{
+    border-left: 1px solid grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#piechart1{
+    max-width: 75%;
+    height: auto;
+}
+
+#piechart2{
+    max-width: 70%;
+    height: auto;
+}
+
+#facebook{
+    background-color: #114570;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#twitter{
+    background-color: #2298f4;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#foursquare{
+    background-color: #3a599b;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#google{
+    background-color: #31cc66;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/* profiles */
+
+.profiles{
+    display: flex;
+    justify-content: space-between;
+}
+
+.border{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+#text1{
+    position: absolute;
+    top: 70px;
+    left: 140px;
+    color: white;
+}
+
+#text2{
+    position: absolute;
+    top: 70px;
+    right: 140px;
+    color: white;
+}
+
+#prof-text{
+    color: white;
+}
+
+#profiles{
+    max-width: 20%;
+    height: auto;
+}
+
+#ribbons{
+    max-width: 60%;
+    height: auto;
+}
+
+.ribbons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#lines{
+    max-width: 50%;
+    height: auto;
+}
+
+/* message box */
+
+.message-box{
+    background-color: #2498f4;
+    margin: 20px;
+    max-width: 835px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.prof-text{
+    color: white;
+    text-align: left;
+    margin: 30px;
+}
+
+.arrows{
+    max-width: 50%;
+    height: auto;
+}
+
+#right{
+    position: absolute;
+    top: 290px;
+    right: -15px;
+}
+
+#left{
+    position: absolute;
+    top: 290px;
+    left: 19px;
+}
+
+/* ads */
+
+.adsbox{
+    margin-top: 30px;
+}
+
+.adsimgs{
+    background-color: white;
+    box-shadow: 0 3px 3px grey;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.ads{
+    max-width: 70%;
+    height: auto;
+}
+
+/* footer */
+
+.footer{
+    border-right: 1px solid grey;
+    text-align: center;
+    background: #f4f4f4;
+}
+
+#icons{
+    max-width: 40%;
+    height: auto;
+}
+
+#icons-pos{
+    display: flex;
+    align-items: center;
+}
+
+.margin{
+    margin-bottom: 50px;
+}
+
+a{
+    text-decoration: none;
+    color: #2498f2;
+}
+
+a:hover{
+    color: grey;
+}
+
+#footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logout{
+    max-width: 25%;
+    height: auto;
+}
+
+.footer-text{
+    color:grey;
+}
+
+.footer-text:hover{
+    color: #2498f2;
+}
+
+footer{
+    position: sticky;
+    bottom: 0;
+}
