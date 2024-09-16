@@ -1,0 +1,1 @@
+This was my first project for MEJO 487 Intermediate Interactive Media at UNC. We were given a Photoshop File and instructed to create a static HTML/CSS page that runs on a server and looks just like it was designed. 
